@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.bajajTest.UserCreationTest" time="4.931" tests="9" errors="0" skipped="0" failures="7">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Stran\Documents\workspace-sts-3.9.18.RELEASE\api-testing\target\test-classes;C:\Users\Stran\Documents\workspace-sts-3.9.18.RELEASE\api-testing\target\classes;C:\Users\Stran\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\Stran\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Stran\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\Stran\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Stran\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;C:\Users\Stran\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;C:\Users\Stran\.m2\repository\io\rest-assured\rest-assured\4.5.1\rest-assured-4.5.1.jar;C:\Users\Stran\.m2\repository\org\codehaus\groovy\groovy\3.0.9\groovy-3.0.9.jar;C:\Users\Stran\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.9\groovy-xml-3.0.9.jar;C:\Users\Stran\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Stran\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Stran\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Stran\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Stran\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Stran\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Stran\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Stran\.m2\repository\io\rest-assured\json-path\4.5.1\json-path-4.5.1.jar;C:\Users\Stran\.m2\repository\org\codehaus\groovy\groovy-json\3.0.9\groovy-json-3.0.9.jar;C:\Users\Stran\.m2\repository\io\rest-assured\rest-assured-common\4.5.1\rest-assured-common-4.5.1.jar;C:\Users\Stran\.m2\repository\io\rest-assured\xml-path\4.5.1\xml-path-4.5.1.jar;C:\Users\Stran\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Stran\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.0\jackson-databind-2.13.0.jar;C:\Users\Stran\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.0\jackson-annotations-2.13.0.jar;C:\Users\Stran\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.0\jackson-core-2.13.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
+    <property name="sun.java.command" value="C:\Users\Stran\AppData\Local\Temp\surefire2029809862519718255\surefirebooter5380509717366849794.jar C:\Users\Stran\AppData\Local\Temp\surefire2029809862519718255 2024-08-28T21-30-38_624-jvmRun1 surefire5669503595797473012tmp surefire_03650172045467151207tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Stran\Documents\workspace-sts-3.9.18.RELEASE\api-testing\target\test-classes;C:\Users\Stran\Documents\workspace-sts-3.9.18.RELEASE\api-testing\target\classes;C:\Users\Stran\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\Stran\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Stran\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\Stran\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Stran\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;C:\Users\Stran\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;C:\Users\Stran\.m2\repository\io\rest-assured\rest-assured\4.5.1\rest-assured-4.5.1.jar;C:\Users\Stran\.m2\repository\org\codehaus\groovy\groovy\3.0.9\groovy-3.0.9.jar;C:\Users\Stran\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.9\groovy-xml-3.0.9.jar;C:\Users\Stran\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Stran\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Stran\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Stran\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Stran\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Stran\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Stran\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Stran\.m2\repository\io\rest-assured\json-path\4.5.1\json-path-4.5.1.jar;C:\Users\Stran\.m2\repository\org\codehaus\groovy\groovy-json\3.0.9\groovy-json-3.0.9.jar;C:\Users\Stran\.m2\repository\io\rest-assured\rest-assured-common\4.5.1\rest-assured-common-4.5.1.jar;C:\Users\Stran\.m2\repository\io\rest-assured\xml-path\4.5.1\xml-path-4.5.1.jar;C:\Users\Stran\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Stran\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.0\jackson-databind-2.13.0.jar;C:\Users\Stran\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.0\jackson-annotations-2.13.0.jar;C:\Users\Stran\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.0\jackson-core-2.13.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Stran"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\Users\Stran\Documents\workspace-sts-3.9.18.RELEASE\api-testing"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Stran\AppData\Local\Temp\surefire2029809862519718255\surefirebooter5380509717366849794.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.22+9-LTS-219"/>
+    <property name="user.name" value="Stran"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\Stran\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Stran\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.22"/>
+    <property name="user.dir" value="C:\Users\Stran\Documents\workspace-sts-3.9.18.RELEASE\api-testing"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk-11/bin/server;C:/Program Files/Java/jdk-11/bin;C:\Program Files\Java\jdk-11\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python312\Scripts\;C:\Python312\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Java\jdk-11\bin;C:\Users\Stran\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Stran\.dotnet\tools;C:\Users\Stran\Downloads\spring-tool-suite-3.9.18.RELEASE-e4.21.0-win32-x86_64 (1)\sts-bundle\sts-3.9.18.RELEASE;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.22+9-LTS-219"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testValidUserCreationWithSpecialCharacters" classname="com.bajajTest.UserCreationTest" time="1.64">
+    <failure message="expected: &lt;201&gt; but was: &lt;400&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <201> but was: <400>
+	at com.bajajTest.UserCreationTest.testValidUserCreationWithSpecialCharacters(UserCreationTest.java:86)
+]]></failure>
+  </testcase>
+  <testcase name="testInvalidEmailFormat" classname="com.bajajTest.UserCreationTest" time="0.219">
+    <failure message="expected: &lt;400&gt; but was: &lt;500&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <400> but was: <500>
+	at com.bajajTest.UserCreationTest.testInvalidEmailFormat(UserCreationTest.java:78)
+]]></failure>
+  </testcase>
+  <testcase name="testDuplicateEmailId" classname="com.bajajTest.UserCreationTest" time="1.012">
+    <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.bajajTest.UserCreationTest.testDuplicateEmailId(UserCreationTest.java:71)
+]]></failure>
+  </testcase>
+  <testcase name="testUserCreationWithMinimalFields" classname="com.bajajTest.UserCreationTest" time="0.198">
+    <failure message="expected: &lt;201&gt; but was: &lt;400&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <201> but was: <400>
+	at com.bajajTest.UserCreationTest.testUserCreationWithMinimalFields(UserCreationTest.java:94)
+]]></failure>
+  </testcase>
+  <testcase name="testInvalidPhoneNumberFormat" classname="com.bajajTest.UserCreationTest" time="0.213"/>
+  <testcase name="testValidUserCreation" classname="com.bajajTest.UserCreationTest" time="0.182">
+    <failure message="expected: &lt;201&gt; but was: &lt;400&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <201> but was: <400>
+	at com.bajajTest.UserCreationTest.testValidUserCreation(UserCreationTest.java:36)
+]]></failure>
+  </testcase>
+  <testcase name="testValidUserCreationWithBoundaryValues" classname="com.bajajTest.UserCreationTest" time="0.194">
+    <failure message="expected: &lt;201&gt; but was: &lt;400&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <201> but was: <400>
+	at com.bajajTest.UserCreationTest.testValidUserCreationWithBoundaryValues(UserCreationTest.java:44)
+]]></failure>
+  </testcase>
+  <testcase name="testUserCreationWithLongEmail" classname="com.bajajTest.UserCreationTest" time="0.209">
+    <failure message="expected: &lt;201&gt; but was: &lt;400&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <201> but was: <400>
+	at com.bajajTest.UserCreationTest.testUserCreationWithLongEmail(UserCreationTest.java:102)
+]]></failure>
+  </testcase>
+  <testcase name="testDuplicatePhoneNumber" classname="com.bajajTest.UserCreationTest" time="0.376"/>
+</testsuite>

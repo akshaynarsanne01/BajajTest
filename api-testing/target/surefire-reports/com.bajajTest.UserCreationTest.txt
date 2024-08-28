@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: com.bajajTest.UserCreationTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 4.931 s <<< FAILURE! - in com.bajajTest.UserCreationTest
+testValidUserCreationWithSpecialCharacters  Time elapsed: 1.64 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <201> but was: <400>
+	at com.bajajTest.UserCreationTest.testValidUserCreationWithSpecialCharacters(UserCreationTest.java:86)
+
+testInvalidEmailFormat  Time elapsed: 0.219 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <400> but was: <500>
+	at com.bajajTest.UserCreationTest.testInvalidEmailFormat(UserCreationTest.java:78)
+
+testDuplicateEmailId  Time elapsed: 1.012 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.bajajTest.UserCreationTest.testDuplicateEmailId(UserCreationTest.java:71)
+
+testUserCreationWithMinimalFields  Time elapsed: 0.198 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <201> but was: <400>
+	at com.bajajTest.UserCreationTest.testUserCreationWithMinimalFields(UserCreationTest.java:94)
+
+testValidUserCreation  Time elapsed: 0.182 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <201> but was: <400>
+	at com.bajajTest.UserCreationTest.testValidUserCreation(UserCreationTest.java:36)
+
+testValidUserCreationWithBoundaryValues  Time elapsed: 0.194 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <201> but was: <400>
+	at com.bajajTest.UserCreationTest.testValidUserCreationWithBoundaryValues(UserCreationTest.java:44)
+
+testUserCreationWithLongEmail  Time elapsed: 0.209 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <201> but was: <400>
+	at com.bajajTest.UserCreationTest.testUserCreationWithLongEmail(UserCreationTest.java:102)
+
